@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\User\Desktop\Faculdade\QuartoSemestre\PWEProjeto\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2615217497.index
+1403821664.index
+1042552782.index
+848163408.index
+2658348987.index
+1406328973.index
+2430327736.index

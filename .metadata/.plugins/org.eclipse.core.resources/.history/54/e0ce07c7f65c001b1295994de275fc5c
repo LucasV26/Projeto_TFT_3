@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{
+	background-image: url("../Imagens/Misc/Fundo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#menuVideo{
+	background-image: url("../Imagens/Misc/fundoFates.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#menuChamps{
+	background-image: url("../Imagens/Misc/fundoCampeoes.png");
+	background-size: cover;
+	background-position: top;
+}
+
+#createBuild, #buildBTN, #createChamp, #createSynergy{
+	width: 100px; 
+	height: 50px;
+	color: white;
+	transition: 1s;
+}
+
+#buildBTN:hover, #createBuild:hover{
+	color: #1266F1;
+	border-color: #FFA900;
+}
+
+#loginForm, #registerForm, #recoverForm, #campImage, #campCard, #champDetail, #champEdit, #sinImage, #sinCard, #sinDetail, #buildCard, #buildImage, #mainMenu{
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+#icone_user{
+	position: absolute;
+	top: 10px;
+	right: 100px;
+}
+
+#marca0{
+	border: 2px solid #B1560F;
+}
+#marca1{
+	border: 2px solid #C0C0C0;
+}
+#marca2{
+	border: 2px solid #D4AF37;
+}
+#marca3{
+	border: 2px solid #A0B2C6;
+}
+
+#campeaoCusto1{
+	border: 2px solid #D3D3D3;
+}
+
+#campeaoCusto2{
+	border: 2px solid #77DD77;
+}
+
+#campeaoCusto3{
+	border: 2px solid #007FFF;
+}
+
+#campeaoCusto4{
+	border: 2px solid #800080;
+}
+
+#campeaoCusto5{
+	border: 2px solid #F9D71C;
+}

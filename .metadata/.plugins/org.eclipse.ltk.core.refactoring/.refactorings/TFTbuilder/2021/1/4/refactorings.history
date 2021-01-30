@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;models.build_camp&apos; to &apos;buildcamp&apos;&#x0D;&#x0A;- Original project: &apos;TFTbuilder&apos;&#x0D;&#x0A;- Original element: &apos;models.build_camp&apos;&#x0D;&#x0A;- Renamed element: &apos;models.buildcamp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;build_camp&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;models{build_camp.java[build_camp" matchStrategy="1" name="buildcamp" qualified="false" references="true" similarDeclarations="false" stamp="1610851705877" textual="false" version="1.0"/>
+</session>

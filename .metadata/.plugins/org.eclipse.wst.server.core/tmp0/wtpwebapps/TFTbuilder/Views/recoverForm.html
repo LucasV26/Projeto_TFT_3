@@ -1,0 +1,42 @@
+<div class="w-50 mx-auto mt-5 ">
+	<form class="border border-warning p-5" method="POST" id="recoverForm">
+	
+	    <div class="text-center">
+		    <h4 class="mb-4">Recupere sua senha</h4>
+		    <h5 class="mb-4"> Um email sera enviado com a nova senha </h5>
+		</div>
+		
+		<br>
+		<label class="text-justify"> Insira o e-mail: </label>
+	    <input type="email" name="email" class="form-control mb-4" placeholder="E-mail" maxlength="100">
+	    
+	    <br>
+		<div class="text-center">
+			<button type="button" class="btn btn-info" onclick="window.history.back()"> Voltar </button>
+			<button type="button" class="btn btn-info" id="submitForm"> Recuperar </button>
+	    </div>
+	    <div id="retorno" class="text-danger">  </div> 
+	</form>
+</div>
+
+
+<script>
+	$(document).ready( () => {
+		
+		$("#submitForm").click( () => {
+			var formData = $("#recoverForm").serialize();
+			
+			$.post("../Models/recoverPassword.jsp", formData, (data, status) => {
+				if(data.success){
+					window.alert("Um e-mail foi enviado com sua nova senha!");
+					window.location.replace("../Controlers/index.jsp");
+				}else{
+					$("#retorno").html("Erro! Algum dado invalido fora inserido!");
+				}
+				
+			}, "json");
+			
+		});
+		
+	});
+</script>

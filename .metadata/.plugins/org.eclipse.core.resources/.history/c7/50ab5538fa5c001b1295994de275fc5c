@@ -1,0 +1,53 @@
+<%@page import="models.usuario"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<div class="container text-center mt-5 p-5" id="mainMenu">
+	<div class="mb-5 p-5 rounded-pill" id="menuVideo">
+		<div class="row">
+			<div class="col">
+				<h3 class="text-warning"> Aprenda sobre as novidades da temporada DESTINOS de TeamFight Tactics </h3>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col">
+				<iframe class="border border-warning" width="560" height="315" src="https://www.youtube.com/embed/5cM7YUmvle0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<div class="mt-5 mb-5 p-5 rounded-pill" id="menuChamps">
+		<div class="row mt-5">
+			<div class="col">
+				<img alt="Banner Campeões" src="../Imagens/Misc/Banner_Campeoes.png" width="400px">
+			</div>
+		</div>
+		<br><br>
+		<div class="row mt-5">
+			<div class="col-7">
+				<h3> Descrubra tudo sobre os novos campeões! </h3>
+			</div>
+			<div class="col">
+				<a class="btn btn-warning" title="Visitar Campeões" style="background-color: #FFA900; width: 100px; height: 50px" href="../Controlers/campeoes.jsp?acao=L" role="button">
+					<span class="fs-4 text-primary"> IR <i class="fas fa-chevron-right"></i> </span>
+				</a>
+			</div>
+		</div>
+		<br><br><br>
+	</div>
+	<div class="mt-5 mb-5 p-5 rounded-pill" id="menuSyns">
+		
+		<div class="row mt-5">
+			<div class="col-7">
+				<h3> Aprenda todos os poderes das sinergias! </h3>
+			</div>
+			<div class="col">
+				<a class="btn btn-warning" title="Visitar Campeões" style="background-color: #FFA900; width: 100px; height: 50px" href="../Controlers/sinergias.jsp?acao=L" role="button">
+					<span class="fs-4 text-primary"> IR <i class="fas fa-chevron-right"></i> </span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+

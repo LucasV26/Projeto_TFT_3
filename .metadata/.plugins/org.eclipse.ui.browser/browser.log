@@ -1,0 +1,20 @@
+
+jan 12, 2021 24:17:32.04 NEW SESSION
+jan 12, 2021 24:17:32.07 [13224:1792:0111/231732.039:ERROR:device_event_log_impl.cc(211)] [23:17:32.040] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+jan 12, 2021 24:27:28.17 [0111/232728.177:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+jan 12, 2021 02:54:36.46 [5960:8180:0112/015436.398:ERROR:device_event_log_impl.cc(211)] [01:54:36.397] Bluetooth: bluetooth_adapter_winrt.cc:1073 Getting Default Adapter failed.
+jan 12, 2021 03:04:15.42 [0112/020415.421:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+
+jan 26, 2021 03:01:39.87 NEW SESSION
+jan 26, 2021 03:01:39.91 [2776:12344:0126/020139.876:ERROR:cache_util_win.cc(20)] Unable to move the cache: Acesso negado. (0x5)
+jan 26, 2021 03:01:39.91 [2776:12344:0126/020139.877:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\User\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\User\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_001
+jan 26, 2021 03:01:39.91 [2776:12344:0126/020139.877:ERROR:disk_cache.cc(184)] Unable to create cache
+jan 26, 2021 03:01:39.91 [2776:12344:0126/020139.877:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+jan 26, 2021 03:02:24.58 [1944:14140:0126/020224.586:ERROR:cache_util_win.cc(20)] Unable to move the cache: Acesso negado. (0x5)
+jan 26, 2021 03:02:24.58 [1944:14140:0126/020224.586:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\User\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\User\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_001
+jan 26, 2021 03:02:24.58 [1944:14140:0126/020224.586:ERROR:disk_cache.cc(184)] Unable to create cache
+jan 26, 2021 03:02:24.58 [1944:14140:0126/020224.586:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+jan 26, 2021 03:03:23.92 [11280:15228:0126/020323.920:ERROR:cache_util_win.cc(20)] Unable to move the cache: Acesso negado. (0x5)
+jan 26, 2021 03:03:23.92 [11280:15228:0126/020323.921:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\User\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\User\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_001
+jan 26, 2021 03:03:23.92 [11280:15228:0126/020323.921:ERROR:disk_cache.cc(184)] Unable to create cache
+jan 26, 2021 03:03:23.92 [11280:15228:0126/020323.921:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2

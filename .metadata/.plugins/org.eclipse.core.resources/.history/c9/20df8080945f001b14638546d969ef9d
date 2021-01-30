@@ -1,0 +1,67 @@
+		<br>
+		<br>
+		<footer class="bg-dark text-light text-center text-lg-start">
+		
+		  <div class="container p-4">
+		    <div class="row">
+		
+		      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+		        <h5 class="text-uppercase">Facebook</h5>
+		
+		        <ul class="list-unstyled mb-0">
+		          <li>
+		            <a class="btn btn-primary" target="_blank" style="background-color: #3b5998" href="https://www.facebook.com/profile.php?id=100004270237967" role="button"
+					  ><i class="fab fa-facebook-f"></i
+					></a>
+		          </li>
+		        </ul>
+		      </div>
+		      
+		      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+		        <h5 class="text-uppercase">Instagram</h5>
+		
+		        <ul class="list-unstyled mb-0">
+		          <li>
+		            <a class="btn btn-primary" target="_blank" style="background-color: #ac2bac" href="https://www.instagram.com/caslus_luscas/" role="button"
+					  ><i class="fab fa-instagram"></i
+					></a>
+		          </li>
+		        </ul>
+		      </div>
+		      
+		      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+		        <h5 class="text-uppercase">GitHub</h5>
+		
+		        <ul class="list-unstyled mb-0">
+		          <li>
+		            <a class="btn btn-primary" target="_blank" style="background-color: #333333" href="https://github.com/LucasV26" role="button"
+					  ><i class="fab fa-github"></i
+					></a>
+		          </li>
+		        </ul>
+		      </div>
+		      
+		      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+		        <h5 class="text-uppercase">Linkedin</h5>
+		
+		        <ul class="list-unstyled mb-0">
+		          <li>
+		            <a class="btn btn-primary" target="_blank" style="background-color: #0082ca" href="https://www.linkedin.com/in/lucas-vinicius-1ab2031a2/" role="button"
+				  	   ><i class="fab fa-linkedin-in"></i
+				    ></a>
+		          </li>
+		        </ul>
+		      </div>
+		      
+		    </div>
+		  </div>
+		
+		  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+		    c 2020 Copyright:
+		    Desenvolvido por Lucas Vinicius
+		  </div>
+		  
+		</footer>	
+	</body>
+	<script type="text/javascript" src="../MDB/js/mdb.min.js"></script>	
+</html>

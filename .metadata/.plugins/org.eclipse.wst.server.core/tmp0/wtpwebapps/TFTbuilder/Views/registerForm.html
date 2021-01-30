@@ -1,0 +1,35 @@
+<div class="w-50 mx-auto mt-5 ">
+	<form class="text-center border border-warning p-5" method="POST" id="registerForm">
+	
+	    <p class="h4 mb-4">Registre-se</p>
+	
+		<input type="text" name="nome" id="nome" class="form-control mb-4" placeholder="Nome de Usuario" maxlength="100">
+	
+	    <input type="email" name="email" id="email" class="form-control mb-4" placeholder="E-mail" maxlength="100">
+		
+		<button type="button" class="btn btn-info" onclick="window.history.back()"> Voltar </button>
+		<button type="button" class="btn btn-info" id="submitForm"> Cadastrar </button>
+	    
+	    <div id="retorno" class="text-danger">  </div> 
+	</form>
+</div>
+
+<script>
+	$(document).ready( () => {
+		$("#submitForm").click( () => {
+			var formData = $("#registerForm").serialize();
+			
+			$.post("../Models/registerUser.jsp", formData, (data, status) => {
+				if(data.success){
+					window.alert("Usuario cadastrado com sucesso! Verifique o email cadastrado");
+					window.location.replace("../Controlers/index.jsp");
+				}else{
+					$("#retorno").html("Erro! Preencha todos os campos com dados validos!");
+				}
+				
+			}, "json");
+			
+		});
+		
+	});
+</script>

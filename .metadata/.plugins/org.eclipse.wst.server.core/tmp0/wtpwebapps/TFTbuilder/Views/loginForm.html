@@ -1,0 +1,57 @@
+<main>
+	<div class="container-fluid ">
+		<div class="row">
+			<div class="col-3 "> <img alt="Fachada" class="ml-5 mt-5" src="../Imagens/Misc/Fachada.png" width="300px">  </div>
+			<div class="mt-5 mx-auto  col-6">
+				<form class="text-center border border-warning p-5 mt-5" method="POST" id="loginForm">
+				
+				    <p class="h4 mb-4">Prossiga com o login para acessar o conteudo da pagina.</p>
+				
+				    <input type="text" id="NomeOuEmail" name="NomeOuEmail" class="form-control mb-4" placeholder="Nome de Usuario ou Email">
+				
+				    <input type="password" id="senha" name="senha" class="form-control mb-4" placeholder="Senha">
+				
+				    <button type="button" class="btn btn-info" id="submitForm"> logar </button>
+					<br>
+					<br>
+						<div class="d-flex justify-content-around">
+					        <p>
+					            Esqueceu a senha? <a href="../Controlers/recover.jsp"> Recuperacao </a>
+					        </p>
+					    </div>
+						<h6> Ou </h6>
+					    <p>Ainda nao possui uma conta?
+					    	<a href="../Controlers/register.jsp"> Registro </a>
+					    </p>
+				
+					<div id="retorno" class="text-danger"></div>
+				</form>
+			</div>
+			<div class="col-3 align-self-end"> <img alt="Fachada"  src="../Imagens/Misc/Fachada.png" width="300px"> </div>
+		</div>	
+	</div>
+	<div class="container mt-5">
+		<div class="row mt-5">
+			<img alt="Banner" class="mx-auto mt-5 w-75"  src="../Imagens/Misc/Banner.png">
+		</div>
+	</div>
+	
+	
+	<script>
+		$(document).ready( () => {
+			
+			$("#submitForm").click( () => {
+				var formData = $("#loginForm").serialize();
+				$.post("../Models/testLogin.jsp", formData, (data, status) => {
+					if(data.login){
+						location.reload();
+					}else{
+						$("#retorno").html("Ocorrreu um erro no login!<br>Confira os dados de email e senha!");
+					}
+					
+				}, "json");
+			});
+			
+		});
+	</script>
+</main>
