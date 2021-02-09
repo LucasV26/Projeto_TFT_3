@@ -18,8 +18,8 @@
 	
 		String smtpHost 	= "smtp.gmail.com"; 
 		String smtpPort 	= "587"; 
-		String username 	= "gcmania2606@gmail.com";
-		String password 	= "Lucas.Vinicius2606";
+		String username 	= "";
+		String password 	= "";
 		String auth     	= "tls";  
 		SendMail sendMail 	=  new SendMail( smtpHost,  smtpPort,  username,  password,  auth  );
 		
